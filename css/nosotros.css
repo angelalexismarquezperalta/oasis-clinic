@@ -1,0 +1,73 @@
+  
+  @font-face {
+    font-family: 'quiksand';
+    src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf), url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+  }
+    body{
+      font-family: 'quiksand', sans-serif !important;
+    }
+    .pleca{
+      min-width: 16px;
+      background: #0000008c;
+      color: white;
+      border-radius: 10px;
+    }
+
+    .about-subtitle{
+      font-family: 'quiksand', sans-serif !important;
+      margin-top: 15%;
+      margin-left: 5%;
+      font-size: 3em;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: white;
+    }
+    .about-title{
+      color: white;
+      font-size: 6vw;
+      margin-top: -2vw;
+      text-transform: uppercase;  
+      font-weight: 900;
+    }
+    .font-uss{
+      background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23ac9892' fill-opacity='0.24'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    }
+    .font-uss{
+      background-color: #F1ECC3;
+    } 
+    /* .font-us{
+      display: block;
+      background-image: url("../assets/sections/about/us.jpg");
+      object-fit: cover;
+      width: 100% !important ;
+      height: 200% !important;
+
+    } */
+   
+    .ico-color{
+      color: #2F5D62;
+    }
+    @media screen and (max-width: 768px) {
+      
+      .about-title{
+      font-size: 16vw;
+      margin-top: -6vw;
+      text-transform: uppercase;  
+      font-weight: 900;
+      color: white;
+  
+    }
+  
+    .about-subtitle{
+      margin-top: 0%;
+      font-size: 3em;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: white;
+    }
+    .card{
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+      }

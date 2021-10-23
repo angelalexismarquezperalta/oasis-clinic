@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'quiksand';
+    src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf), url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+  }
+    body{
+      font-family: 'quiksand', sans-serif;
+    }
+
+
+    .about-subtitle {
+      font-family: "quiksand", sans-serif !important;
+      margin-top: 15%;
+      margin-left: 5%;
+      font-size: 3.5em;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: #F5E8C7;
+    }
+
+    .face-title{
+      font-size: 9vw;
+      margin-top: 15%;
+      text-transform: uppercase;  
+      font-weight: 900;
+      color: #ffffff;
+      text-align: center;
+    }
+  
+    .content-space{
+      margin-top: 10%;
+    }
+  
+    .content-tratamientos{
+      margin-top: -1.3vw;
+    }
+  
+    .font-face{
+      background-color: #ffffff;
+  background-image: url("../assets/sections/faciales/facial_p.svg");
+    }
+    
+    .font-facial{
+      background-color: #9E7777;
+    }
+    .about-title {
+      margin-left: 5%;
+      font-size: 6vw;
+      margin-top: -2vw;
+      text-transform: uppercase;
+      font-weight: 900;
+      color: #F5E8C7;
+    }
+   
+    @media screen and (max-width: 768px) {
+
+      .about-title {
+        font-size: 16vw;
+        margin-top: -6vw;
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+
+      .about-subtitle {
+        margin-top: 0%;
+        font-size: 3em;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      
+      .face-title{
+      font-size: 16vw;
+      margin-top: -6vw;
+      text-transform: uppercase;  
+      font-weight: 900;
+      
+    }
+  
+    .face-subtitle{
+      margin-top: 0%;
+      font-size: 3em;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    .card{
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+  }
+
+
+
+  button{
+    background-color: #FF4848 !important;
+    border-radius: 10px;
+  }
+  
+  
+  .media.h1.title{
+    color:white;
+  }
+  
+  #container{width:100%; margin:auto;}
+  button.accordion {
+      background-color: #eee;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 2rem;
+      transition: 0.4s;
+    background:#1abc9c;
+    border-bottom:1px solid #fff;
+    border-top:1px solid #fff;
+  }
+  
+  button.accordion.active, button.accordion:hover {
+    background:tomato;
+  }
+  
+  button.accordion:after {
+      content: '\002B';
+      color: #FFB830;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+  }
+  
+  button.accordion.active:after {
+      content: "\2212";
+  }
+  
+  .panel {
+      padding: 0 18px;
+      background: white;
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+  }
+  .content-space{
+    margin-top: 0px;
+  }
+  .circle{
+    border-radius: 50%;
+  }
